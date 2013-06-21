@@ -3,6 +3,10 @@ design_patterns_in_ruby_code
 
 The code from Russ Olsen's book Design Patterns in Ruby (http://goo.gl/OKPQw)
 
+I've updated the code so that it runs with Ruby 1.9.3,
+but do keep in mind that some of this code is more than
+six years old: Thinking and coding styles do change.
+
 The repo is organized by chapter, one subdirectory per chapter.
 In each subdirectory you will find Ruby files with names like
 ex1_report.rb or ex15_subclass_test.rb or ex13_account_demo.rb.
@@ -43,6 +47,6 @@ of the book which just didn’t fit into the ex##_*.rb naming
 scheme, but these should be pretty self explanatory.
 
 If you have any questions or comments, just email me at
-russ@russolsen.com.
+russ@russolsen.com or ping me on twitter @russolsen.
 
 Russ
