@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<some_data>
+ <if>
+   <its>
+     <not>
+       <one>
+         thing, it's another
+       </one>
+     </not>
+   </its>
+ </if>
+</some_data>

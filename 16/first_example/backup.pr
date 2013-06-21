@@ -1,0 +1,10 @@
+
+backup 'data/documents'
+
+backup 'data/music', file_name('*.mp3') & file_name('*.wav')
+
+backup 'data/images', except(file_name('*.tmp'))
+
+to '/external_drive/backups'
+
+interval 0.05

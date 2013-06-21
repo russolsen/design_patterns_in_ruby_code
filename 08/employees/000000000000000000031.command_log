@@ -1,0 +1,4 @@
+o:AddEmployee:@employeeo:Employee:@addressI"1 Division Street:EF:@numberI"	1001;	F:
+@nameI"tom;	Fo:AddEmployee:@employeeo:Employee:@addressI"3435 Sunnyside Ave:EF:@numberI"	1002;	F:
+@nameI"
+harry;	Fo:FindEmployee:@numberI"	1001:EFo:FindEmployee:@numberI"	1002:EFo:ChangeAddress:@addressI"555 Main Street:EF:@numberI"	1001;Fo:FindEmployee:@numberI"	1001:EF

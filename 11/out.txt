@@ -1,0 +1,4 @@
+A plain line
+A line with check sum
+2013-06-21 12:24:38 -0400: with time stamp
+%{@line_number}: with line number

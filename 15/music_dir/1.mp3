@@ -1,0 +1,18 @@
+total 136
+drwx------ 2 rolsen rolsen 8192 2007-08-14 08:10 dir1
+drwx------ 3 rolsen rolsen 8192 2007-08-14 08:10 dir2
+drwx------ 2 rolsen rolsen 8192 2007-08-14 08:10 dir3
+-rwx------ 1 rolsen rolsen  319 2007-08-14 12:39 ex1_files_demo.rb
+-rwx------ 1 rolsen rolsen 1696 2007-08-14 12:37 ex1_files.rb
+-rwx------ 1 rolsen rolsen 4728 2007-08-14 08:10 ex1_files_test.rb
+-rwx------ 1 rolsen rolsen  203 2007-08-14 08:10 ex2_parser_demo.rb
+-rwx------ 1 rolsen rolsen  833 2007-08-14 08:10 ex2_parser.rb
+-rwx------ 1 rolsen rolsen 1007 2007-08-14 08:10 ex2_parser_test.rb
+-rwx------ 1 rolsen rolsen  348 2007-08-14 08:10 ex3_operators_demo.rb
+-rwx------ 1 rolsen rolsen  318 2007-08-14 08:10 ex3_operators.rb
+-rwx------ 1 rolsen rolsen 1722 2007-08-14 08:10 ex3_operators_test.rb
+-rwx------ 1 rolsen rolsen  367 2007-08-14 08:10 ex4_speed_demo.rb
+-rwx------ 1 rolsen rolsen  661 2007-08-14 08:10 ex5_runt_demo.rb
+drwx------ 2 rolsen rolsen 8192 2007-08-14 12:39 music_dir
+drwx------ 3 rolsen rolsen 8192 2007-08-14 08:10 old
+drwx------ 3 rolsen rolsen 8192 2007-08-14 12:38 test_dir

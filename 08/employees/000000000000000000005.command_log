@@ -1,0 +1,6 @@
+o:AddEmployee:@employeeo:Employee:@address"1 Division Street:@number"	1001:
+@name"tomo:AddEmployee:@employeeo:Employee:@address"15 Tilden Street:@number"	1002:
+@name"	dicko:AddEmployee:@employeeo:Employee:@address"3435 Sunnyside Ave:@number"	1003:
+@name"
+harryo:FindEmployee:@number"	1001o:FindEmployee:@number"	1002o:FindEmployee:@number"	1003o:ChangeAddress:@address"
+there:@number"	1001o:FindEmployee:@number"	1001

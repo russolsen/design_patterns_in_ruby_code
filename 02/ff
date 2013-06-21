@@ -1,0 +1,2 @@
+example_expected nil, %q{/Russ|Russell/ =~ 'Fred'   # nil – Fred is not Russ nor Russell}
+

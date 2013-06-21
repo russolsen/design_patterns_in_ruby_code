@@ -1,0 +1,4 @@
+
+smtp: SmtpAdapter
+file: FileAdapter
+http: HttpAdapter

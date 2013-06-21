@@ -1,0 +1,5 @@
+
+task :default do
+  puts "The examples in this directory do"
+  puts "not really lend themselves to quick testing"
+end

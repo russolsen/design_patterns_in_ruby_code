@@ -1,0 +1,13 @@
+
+
+Backup.new do |b|
+ b.backup '/data/oldies', file_name('*.mp3') | file_name('*.wav')
+  b.to 'backup'
+  b.interval 0.05
+end
+
+Backup.new do |b|
+  b.backup '/data/newies', file_name('*.mp3') | file_name('*.wav')
+  b.to 'backup'
+  b.interval 0.05
+end
