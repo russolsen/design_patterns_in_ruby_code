@@ -1,4 +1,3 @@
-
 task :init
 
 task :default => :init do
@@ -9,3 +8,5 @@ task :default => :init do
     sh "ruby -I . #{f}"
   end
 end
+
+task :clean

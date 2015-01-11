@@ -18,3 +18,6 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# Test artifacts
+08/employees
