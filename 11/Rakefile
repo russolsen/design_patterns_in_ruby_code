@@ -1,1 +1,8 @@
 require '../rake_utils.rb'
+
+task :clean do
+  rm_f 'final.txt'
+  rm_f 'out.txt'
+  rm_f 'out'
+end
+
