@@ -3,7 +3,7 @@ design_patterns_in_ruby_code
 
 The code from Russ Olsen's book Design Patterns in Ruby (http://goo.gl/OKPQw)
 
-I've updated the code so that it runs with Ruby 1.9.3,
+I've updated the code so that it runs with Ruby 2.1.0
 but do keep in mind that some of this code is more than
 six years old: Thinking and coding styles do change.
 
