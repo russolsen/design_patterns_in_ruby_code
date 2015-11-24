@@ -2,6 +2,8 @@
 
 require '../example'
 
+# This example is broken because Runt no longer seems to load.
+
 example %Q{
 require 'rubygems'
 require 'runt'
