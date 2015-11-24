@@ -2,11 +2,10 @@ design_patterns_in_ruby_code
 ============================
 
 The code from Russ Olsen's book Design Patterns in Ruby (http://goo.gl/OKPQw)
-ported (with very minor changes) to Ruby 2.2.1.
 
-I've updated the code so that it runs with Ruby 2.1.0
-but do keep in mind that some of this code is more than
-six years old: Thinking and coding styles do change.
+I've updated the code so that it runs with Ruby 2.2.1
+but do keep in mind that some of this code is now nine years
+old: Thinking and coding styles do change.
 
 The repo is organized by chapter, one subdirectory per chapter.
 In each subdirectory you will find Ruby files with names like
