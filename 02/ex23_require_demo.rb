@@ -29,6 +29,6 @@ yahoo = URI.parse('http://www.yahoo.com')
 example %q{
 
 require 'rubygems'
-require 'runt'
+require 'pry'
 
 }
