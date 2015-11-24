@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'test-unit'
 gem 'rspec'
 gem 'runt'
 #gem 'madeleine', git: 'git@github.com:ghostganz/madeleine.git'
