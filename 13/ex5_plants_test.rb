@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex5_plants'
+require_relative 'ex5_plants'
 
 class PlantsTest < Test::Unit::TestCase
 

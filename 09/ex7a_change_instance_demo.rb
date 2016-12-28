@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex3_renderer'
+require_relative 'ex3_renderer'
 
 example %q{
 

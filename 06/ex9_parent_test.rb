@@ -3,11 +3,11 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_task'
+require_relative 'ex1_task'
 #
 # Task / Composite with parent pointers
 #
-require 'ex9_parent'
+require_relative 'ex9_parent'
 
 class OtherTask < Task
   
@@ -18,8 +18,6 @@ class OtherTask < Task
 end  
 
 class ParentTest < Test::Unit::TestCase
-
-
   def test_parent_add_delete
     c1 = CompositeTask.new('grandpa')
     assert_equal nil, c1.parent
@@ -72,10 +70,7 @@ class ParentTest < Test::Unit::TestCase
       puts "task: #{task}"
       task = task.parent
     end
-    
   end
-  
-
 end
 
 

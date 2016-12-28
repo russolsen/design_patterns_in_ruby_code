@@ -1,8 +1,8 @@
 #
 # Demo how to count leaf nodes
 #
-require 'ex1_task'
-require 'ex4_comp_task'
+require_relative 'ex1_task'
+require_relative 'ex4_comp_task'
 
 #
 # Right way of doing it

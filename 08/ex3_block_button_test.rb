@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_block_button'
+require_relative 'ex3_block_button'
 
 class ButtonWithBlockTest < Test::Unit::TestCase
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex8_class_singleton'
+require_relative 'ex8_class_singleton'
 
 example %q{
 

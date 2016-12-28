@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_files'
-require 'ex3_operators'
+require_relative 'ex1_files'
+require_relative 'ex3_operators'
 
 class ParserTest < Test::Unit::TestCase
 

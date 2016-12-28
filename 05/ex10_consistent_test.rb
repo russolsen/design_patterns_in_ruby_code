@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex10_consistent'
+require_relative 'ex10_consistent'
 
 class Observer
 

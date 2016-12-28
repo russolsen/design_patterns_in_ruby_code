@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_account'
-require 'ex9_meth_miss_proxy'
+require_relative 'ex1_account'
+require_relative 'ex9_meth_miss_proxy'
 
 class MethodMissingProxyAccountTest < Test::Unit::TestCase
 

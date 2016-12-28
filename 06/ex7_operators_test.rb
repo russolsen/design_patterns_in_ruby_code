@@ -3,16 +3,15 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_task'
+require_relative 'ex1_task'
 #
 # Operator based composite task
 #
-require 'ex7_operators'
+require_relative 'ex7_operators'
 
 
 
 class OperatorsTest < Test::Unit::TestCase
-
   def test_class
     task = CompositeTask.new('operators')
     assert(!task.kind_of?(Array))
@@ -42,7 +41,6 @@ class OperatorsTest < Test::Unit::TestCase
     task.remove_sub_task(m1)
     assert_equal 3, task.get_time_required
   end
-
 end
 
 

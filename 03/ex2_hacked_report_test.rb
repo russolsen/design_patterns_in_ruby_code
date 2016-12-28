@@ -4,7 +4,7 @@ require 'test/unit'
 require 'pp'
 require 'stringio'
 
-require 'ex2_hacked_report'
+require_relative 'ex2_hacked_report'
 
 
 class HackedTest < Test::Unit::TestCase

@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex1_encrypter'
-require 'ex2_ioadapter'
+require_relative '../example'
+require_relative 'ex1_encrypter'
+require_relative 'ex2_ioadapter'
 
 example %q{
 encrypter = Encrypter.new('XYZZY')

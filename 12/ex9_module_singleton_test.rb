@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex9_module_singleton'
+require_relative 'ex9_module_singleton'
 
 class ModuleSingletonTest < Test::Unit::TestCase
 

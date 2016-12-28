@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex5_merge'
+require_relative 'ex5_merge'
 
 
 

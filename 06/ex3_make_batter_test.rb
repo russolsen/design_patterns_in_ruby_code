@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_task'
-require 'ex3_make_batter'
+require_relative 'ex1_task'
+require_relative 'ex3_make_batter'
 
 
 

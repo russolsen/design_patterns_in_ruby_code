@@ -3,11 +3,11 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_duck'
-require 'ex3_frog'
-require 'ex5_plants'
-require 'ex9_tiger_tree'
-require 'ex11_abs_factories'
+require_relative 'ex1_duck'
+require_relative 'ex3_frog'
+require_relative 'ex5_plants'
+require_relative 'ex9_tiger_tree'
+require_relative 'ex11_abs_factories'
 
 class AbsFactoryTest < Test::Unit::TestCase
 

@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex2_button_with_cmd'
+require_relative 'ex2_button_with_cmd'
 
 class MockCommand
   attr_reader :executed

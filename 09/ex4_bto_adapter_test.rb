@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_renderer'
-require 'ex4_bto_adapter'
+require_relative 'ex3_renderer'
+require_relative 'ex4_bto_adapter'
 
 class BTOAdapterTest < Test::Unit::TestCase
 

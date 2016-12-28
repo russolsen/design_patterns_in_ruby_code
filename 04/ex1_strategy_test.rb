@@ -4,7 +4,7 @@ require 'test/unit'
 require 'pp'
 require 'stringio'
 
-require 'ex1_strategy'
+require_relative 'ex1_strategy'
 
 
 class FormatterTest < Test::Unit::TestCase

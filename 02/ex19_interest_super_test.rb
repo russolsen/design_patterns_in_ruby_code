@@ -3,9 +3,9 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex13_account'
-require 'ex16_accessors'
-require 'ex18_interest_account'
+require_relative 'ex13_account'
+require_relative 'ex16_accessors'
+require_relative 'ex18_interest_account'
 
 class InterestBearingAccountWithSuperTest < Test::Unit::TestCase
 

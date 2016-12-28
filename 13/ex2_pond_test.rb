@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_duck'
-require 'ex2_pond'
+require_relative 'ex1_duck'
+require_relative 'ex2_pond'
 
 class PondTest < Test::Unit::TestCase
 

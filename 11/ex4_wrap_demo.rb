@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex2_simple_writer'
+require_relative 'ex2_simple_writer'
 
 
 example %q{

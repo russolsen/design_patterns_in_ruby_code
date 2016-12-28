@@ -4,7 +4,7 @@ require 'test/unit'
 require 'pp'
 require 'stringio'
 
-require 'ex7_observer_proc'
+require_relative 'ex7_observer_proc'
 
 class ProcBasedObserverTest < Test::Unit::TestCase
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
 
-require 'ex1_report'
+require_relative 'ex1_report'
 
 example %q{
 

@@ -1,1 +1,1 @@
-require 'ex3_renderer'
+require_relative 'ex3_renderer'

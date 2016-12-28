@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex3_simple_logger'
-require 'ex4_manual'
+require_relative 'ex3_simple_logger'
+require_relative 'ex4_manual'
 
 example %q{
 

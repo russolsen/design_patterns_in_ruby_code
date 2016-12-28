@@ -1,4 +1,4 @@
-require 'finder'
+require_relative 'finder'
 require 'singleton'
 require 'fileutils'
 
@@ -14,7 +14,6 @@ class DataSource
   end
 
   def backup(backup_directory)
-    puts backup_directory
     files=@finder_expression.evaluate(@directory)
     files.each do |file|
       backup_file( file, backup_directory)

@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 
-require '../example'
-require 'ex2_hardcoded'
+require_relative '../example'
+require_relative 'ex2_hardcoded'
 
 example %q{
 payroll = Payroll.new

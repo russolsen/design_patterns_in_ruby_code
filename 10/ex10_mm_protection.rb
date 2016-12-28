@@ -1,4 +1,3 @@
-
 require 'etc'
 
 class AccountProtectionProxy

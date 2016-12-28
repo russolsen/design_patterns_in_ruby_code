@@ -1,4 +1,3 @@
-
 class Employee
  attr_reader :name
  attr_accessor  :title, :salary

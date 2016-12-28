@@ -1,4 +1,4 @@
-require 'account'
+require_relative 'account'
 
 
 class InterestBearingAccount < BankAccount

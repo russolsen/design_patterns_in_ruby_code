@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
 
-require  'ex21_module'
+require_relative  'ex21_module'
 
 example %q{
 

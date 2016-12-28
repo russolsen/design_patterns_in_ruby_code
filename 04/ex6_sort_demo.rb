@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex5_strategy_proc'
+require_relative 'ex5_strategy_proc'
 
 example %q$
 

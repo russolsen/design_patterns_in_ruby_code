@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
 #
 # Simple demo of composite with operators
 #
-require 'ex7_operators'
+require_relative 'ex7_operators'
 require 'pp'
 
 example %q{

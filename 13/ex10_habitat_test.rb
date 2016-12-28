@@ -3,9 +3,9 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_duck'
-require 'ex9_tiger_tree'
-require 'ex10_habitat'
+require_relative 'ex1_duck'
+require_relative 'ex9_tiger_tree'
+require_relative 'ex10_habitat'
 
 class HabitatTest < Test::Unit::TestCase
 

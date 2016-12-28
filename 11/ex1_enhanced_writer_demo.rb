@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex1_enhanced_writer'
+require_relative '../example'
+require_relative 'ex1_enhanced_writer'
 
 example %q{
 writer = EnhancedWriter.new('out.txt')

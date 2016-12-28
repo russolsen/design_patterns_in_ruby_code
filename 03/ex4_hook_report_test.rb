@@ -4,7 +4,7 @@ require 'test/unit'
 require 'pp'
 require 'stringio'
 
-require 'ex4_hook_report'
+require_relative 'ex4_hook_report'
 
 
 class HookReportTest < Test::Unit::TestCase

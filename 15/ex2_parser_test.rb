@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_files'
-require 'ex2_parser'
+require_relative 'ex1_files'
+require_relative 'ex2_parser'
 
 
 

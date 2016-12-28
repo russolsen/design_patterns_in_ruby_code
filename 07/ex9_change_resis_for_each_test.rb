@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex9_change_resis_for_each'
+require_relative 'ex9_change_resis_for_each'
 
 
 

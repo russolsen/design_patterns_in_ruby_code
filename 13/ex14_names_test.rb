@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex14_names'
+require_relative 'ex14_names'
 
 class NameBasedFactoryTest < Test::Unit::TestCase
 

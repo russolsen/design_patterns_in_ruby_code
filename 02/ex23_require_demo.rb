@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
-example %q{
-require 'account.rb'
+example(%q{
+require_relative 'account.rb'
 
 class Portfolio
   # Uses BankAccount.
@@ -10,12 +10,12 @@ class Portfolio
 
   ba = BankAccount.new('russ')
 end
-}
+}, __FILE__)
 
 
-example %q{
-require 'account'
-}
+example(%q{
+require_relative 'account'
+}, __FILE__)
 
 
 example %q{

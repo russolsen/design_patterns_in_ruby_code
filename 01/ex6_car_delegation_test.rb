@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex5_engine'
-require 'ex6_car_delegation'
+require_relative 'ex5_engine'
+require_relative 'ex6_car_delegation'
 
 class CarWithDelegationTest < Test::Unit::TestCase
 

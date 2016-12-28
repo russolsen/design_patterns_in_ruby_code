@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex9_chatter'
+require_relative 'ex9_chatter'
 
 class Observer
 

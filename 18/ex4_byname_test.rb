@@ -3,9 +3,9 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_message'
-require 'ex2_adapters'
-require 'ex4_byname'
+require_relative 'ex1_message'
+require_relative 'ex2_adapters'
+require_relative 'ex4_byname'
 
 class HardcodedChooserTest < Test::Unit::TestCase
 

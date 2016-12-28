@@ -3,9 +3,9 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex13_account'
-require 'ex15_manual_accessor'
-require 'ex15a_manual_accessor'
+require_relative 'ex13_account'
+require_relative 'ex15_manual_accessor'
+require_relative 'ex15a_manual_accessor'
 
 class AccountTest < Test::Unit::TestCase
 

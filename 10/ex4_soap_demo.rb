@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
 puts "This demo does not work in 2013"
 
-## require 'yaml'
+## require_relative 'yaml'
 ## 
 ## example %q{
 ## require 'soap/wsdlDriver'

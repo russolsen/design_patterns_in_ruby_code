@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
-require 'ex13_account'
+require_relative 'ex13_account'
 
 example %q{
 my_account = BankAccount.new('Russ')

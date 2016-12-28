@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
 expect_error %q{
 

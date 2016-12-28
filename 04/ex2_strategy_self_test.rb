@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'stringio'
 
-require 'ex2_strategy_self'
+require_relative 'ex2_strategy_self'
 
 
 class FormatterTest < Test::Unit::TestCase

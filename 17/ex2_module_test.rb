@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex2_module'
+require_relative 'ex2_module'
 
 class MethodByMethodTest < Test::Unit::TestCase
 

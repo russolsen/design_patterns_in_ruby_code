@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex1_duck'
-require 'ex3_frog'
-require 'ex5_plants'
-require 'ex9_tiger_tree'
-require 'ex10_habitat'
+require_relative '../example'
+require_relative 'ex1_duck'
+require_relative 'ex3_frog'
+require_relative 'ex5_plants'
+require_relative 'ex9_tiger_tree'
+require_relative 'ex10_habitat'
 
 example %q{
 jungle = Habitat.new(1, Tiger, 4, Tree)

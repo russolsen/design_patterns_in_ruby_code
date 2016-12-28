@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex1_files'
+require_relative 'ex1_files'
 
 
 example %q{

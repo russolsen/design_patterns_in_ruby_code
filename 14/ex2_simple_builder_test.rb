@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'test/unit'
-require 'ex1_computer'
-require 'ex2_simple_builder'
+require_relative 'ex1_computer'
+require_relative 'ex2_simple_builder'
 
 
 class SimpleBuilderTest < Test::Unit::TestCase

@@ -2,9 +2,9 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex4_base'
-require 'ex3_members'
-require 'ex5_member_of'
+require_relative 'ex4_base'
+require_relative 'ex3_members'
+require_relative 'ex5_member_of'
 
 class MemberOfTest < Test::Unit::TestCase
 

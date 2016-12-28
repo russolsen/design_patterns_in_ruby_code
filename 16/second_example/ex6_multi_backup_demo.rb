@@ -1,10 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../../example'
+require_relative '../../example'
 
+require_relative 'finder'
 
-
-require 'finder'
-
-require 'ex6_multi_backup'
+require_relative 'ex6_multi_backup'
 

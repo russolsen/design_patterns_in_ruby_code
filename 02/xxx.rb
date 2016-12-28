@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
 2                     # a Fixnum
 437                   # a Fixnum

@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_encrypter'
-require 'ex2_ioadapter'
+require_relative 'ex1_encrypter'
+require_relative 'ex2_ioadapter'
 
 class StringIOAdapterTest < Test::Unit::TestCase
 

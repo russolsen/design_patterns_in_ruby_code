@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex6a_enum_portfolio'
+require_relative 'ex6a_enum_portfolio'
 
 example %q{
 

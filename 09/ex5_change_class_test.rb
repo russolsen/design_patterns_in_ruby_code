@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex5_change_class'
+require_relative 'ex5_change_class'
 
 class ModifiedBTOClassTest < Test::Unit::TestCase
 

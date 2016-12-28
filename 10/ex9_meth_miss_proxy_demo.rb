@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
-require 'ex9_meth_miss_proxy'
-require 'ex1_account'
+require_relative 'ex9_meth_miss_proxy'
+require_relative 'ex1_account'
 
 
 example %q{

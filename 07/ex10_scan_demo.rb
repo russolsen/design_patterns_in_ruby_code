@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require '../example.rb'
+require_relative '../example.rb'
 
 example %q{
 

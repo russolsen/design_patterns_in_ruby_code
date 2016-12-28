@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
-require 'ex1_method'
+require_relative 'ex1_method'
 
 example %q{
 plant1 = new_plant(:fleshy, :broad)

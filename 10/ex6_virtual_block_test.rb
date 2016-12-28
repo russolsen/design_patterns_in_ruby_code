@@ -4,8 +4,8 @@ require 'test/unit'
 require 'pp'
 require 'yaml'
 
-require 'ex1_account'
-require 'ex6_virtual_block'
+require_relative 'ex1_account'
+require_relative 'ex6_virtual_block'
 
 
 class VirtualProxyTest < Test::Unit::TestCase

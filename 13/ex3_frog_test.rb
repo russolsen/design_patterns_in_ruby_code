@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_frog'
+require_relative 'ex3_frog'
 
 class FrogTest < Test::Unit::TestCase
   def test_frog

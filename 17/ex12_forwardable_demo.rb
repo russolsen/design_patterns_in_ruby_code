@@ -1,10 +1,9 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
 require 'forwardable'
 
 example %q{
-
 class Engine
   def start_engine
     # Start the engine...

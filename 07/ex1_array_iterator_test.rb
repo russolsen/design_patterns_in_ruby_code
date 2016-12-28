@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_array_iterator'
+require_relative 'ex1_array_iterator'
 
 
 

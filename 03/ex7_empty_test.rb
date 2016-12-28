@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'test/unit'
-require 'empty'
+require_relative 'empty'
 
 class EmptyTest < Test::Unit::TestCase
   def setup

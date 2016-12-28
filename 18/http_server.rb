@@ -1,5 +1,5 @@
 
-require 'webrick'
+require_relative 'webrick'
 include WEBrick
 
 s = HTTPServer.new(

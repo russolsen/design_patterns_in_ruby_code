@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_enhanced_writer'
+require_relative 'ex1_enhanced_writer'
 
 class EnhancedWriterTest < Test::Unit::TestCase
 

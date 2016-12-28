@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex14_names'
+require_relative '../example'
+require_relative 'ex14_names'
 
 example %q{
 

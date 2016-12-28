@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
 example %q{
-require 'drb/drb'
+require_relative 'drb/drb'
 
 DRb.start_service
 math_service = DRbObject.new_with_uri("druby://localhost:3030")

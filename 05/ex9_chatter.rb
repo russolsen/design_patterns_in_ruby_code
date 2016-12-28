@@ -1,6 +1,4 @@
-
-
-require 'ex6_std_observer'
+require_relative 'ex6_std_observer'
 
 
 class Employee

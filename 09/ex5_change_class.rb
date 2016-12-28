@@ -2,7 +2,7 @@
 
 # Make sure the original class is loaded
 
-require 'british_text_object'
+require_relative 'british_text_object'
 
 # Now add some methods to the original class
 

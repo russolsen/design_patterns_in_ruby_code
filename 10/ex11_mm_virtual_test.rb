@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_account'
-require 'ex11_mm_virtual'
+require_relative 'ex1_account'
+require_relative 'ex11_mm_virtual'
 
 class MethodMissingVirtualProxyAccountTest < Test::Unit::TestCase
 

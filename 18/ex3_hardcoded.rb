@@ -1,4 +1,3 @@
-
 def adapter_for(message)
   protocol = message.to.scheme
   return FileAdapter.new if protocol == 'file'

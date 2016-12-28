@@ -4,8 +4,8 @@ require 'test/unit'
 require 'pp'
 require 'fileutils'
 
-require 'finder'
-require 'ex3_packrat'
+require_relative 'finder'
+require_relative 'ex3_packrat'
 
 #
 # Hijack the Time.ctime method so that it always produces 

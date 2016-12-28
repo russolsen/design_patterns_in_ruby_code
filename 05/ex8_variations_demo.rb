@@ -2,8 +2,8 @@
 
 require 'pp'
 
-require '../example'
-require 'ex7_observer_proc'
+require_relative '../example'
+require_relative 'ex7_observer_proc'
 
 class DummyObserver
 

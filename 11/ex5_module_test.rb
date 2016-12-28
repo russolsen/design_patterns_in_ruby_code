@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex2_simple_writer'
-require 'ex5_module'
+require_relative 'ex2_simple_writer'
+require_relative 'ex5_module'
 
 class ModuleDecoratorTest < Test::Unit::TestCase
 

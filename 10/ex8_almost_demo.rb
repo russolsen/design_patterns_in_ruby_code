@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex1_account'
+require_relative '../example'
+require_relative 'ex1_account'
 
 example %q{
 

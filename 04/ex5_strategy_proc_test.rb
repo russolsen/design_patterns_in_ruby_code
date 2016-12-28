@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'stringio'
 
-require 'ex5_strategy_proc'
+require_relative 'ex5_strategy_proc'
 
 
 class ProcFormatterTest < Test::Unit::TestCase

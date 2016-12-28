@@ -1,4 +1,4 @@
-require 'ex1_task'
+require_relative 'ex1_task'
 
 class MakeBatterTask < Task 
   def initialize

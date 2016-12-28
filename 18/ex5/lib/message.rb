@@ -1,2 +1,1 @@
-
-require '../../ex1_message'
+require_relative '../../ex1_message'

@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_simple_logger'
+require_relative 'ex3_simple_logger'
 
 class SimpleLoggerTest < Test::Unit::TestCase
 

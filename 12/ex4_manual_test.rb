@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_simple_logger'
-require 'ex4_manual'
+require_relative 'ex3_simple_logger'
+require_relative 'ex4_manual'
 
 class ManualSingletonTest < Test::Unit::TestCase
 

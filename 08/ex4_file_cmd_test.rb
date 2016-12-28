@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex4_file_cmd'
+require_relative 'ex4_file_cmd'
 
 class FileCommandTest < Test::Unit::TestCase
 

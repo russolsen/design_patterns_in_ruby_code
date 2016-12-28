@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex4_file_cmd'
+require_relative '../example'
+require_relative 'ex4_file_cmd'
 
 example %q{
 cmds = CompositeCommand.new

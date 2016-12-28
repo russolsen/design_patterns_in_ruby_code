@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_encrypter'
+require_relative 'ex1_encrypter'
 
 class EncrypterTest < Test::Unit::TestCase
 

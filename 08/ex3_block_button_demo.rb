@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex3_block_button'
+require_relative '../example'
+require_relative 'ex3_block_button'
 
 example %q{
 new_button = SlickButton.new do

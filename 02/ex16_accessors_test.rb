@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex13_account'
-require 'ex16_accessors'
+require_relative 'ex13_account'
+require_relative 'ex16_accessors'
 
 class AccountAccessorsTest < Test::Unit::TestCase
 

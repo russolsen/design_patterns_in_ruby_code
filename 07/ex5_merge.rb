@@ -1,4 +1,4 @@
-require 'ex1_array_iterator'
+require_relative 'ex1_array_iterator'
 
 def merge(array1, array2)
   merged = []

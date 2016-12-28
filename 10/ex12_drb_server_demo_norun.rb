@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
 example %q{
 
@@ -12,7 +12,7 @@ class MathService
   end
 end
 
-require 'drb/drb'
+require_relative 'drb/drb'
 
 math_service=MathService.new
 DRb.start_service("druby://localhost:3030", math_service)

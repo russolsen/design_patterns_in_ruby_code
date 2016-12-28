@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 require 'test/unit'
-require 'ex1_computer'
-require 'ex3_polymorphic'
-require 'ex7_reset_builder'
+require_relative 'ex1_computer'
+require_relative 'ex3_polymorphic'
+require_relative 'ex7_reset_builder'
 
 
 class ResetBuilderTest < Test::Unit::TestCase

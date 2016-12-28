@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex2_simple_writer'
-require 'ex2_decorator'
-require 'ex2_misc_decorators'
+require_relative 'ex2_simple_writer'
+require_relative 'ex2_decorator'
+require_relative 'ex2_misc_decorators'
 
 example %q{
 writer = NumberingWriter.new(SimpleWriter.new('final.txt'))

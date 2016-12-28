@@ -3,11 +3,11 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_task'
+require_relative 'ex1_task'
 #
 # Array based composite task
 #
-require 'ex8_array'
+require_relative 'ex8_array'
 
 
 

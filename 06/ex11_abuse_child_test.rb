@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex11_abuse_child'
+require_relative 'ex11_abuse_child'
 
 
 

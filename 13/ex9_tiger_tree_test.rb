@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex9_tiger_tree'
+require_relative 'ex9_tiger_tree'
 
 class TigerTreeTest < Test::Unit::TestCase
 

@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex4_base'
-require 'ex3_members'
+require_relative 'ex4_base'
+require_relative 'ex3_members'
 
 class TigertTest < Test::Unit::TestCase
 

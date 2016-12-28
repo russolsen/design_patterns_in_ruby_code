@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_files'
+require_relative 'ex1_files'
 
 
 

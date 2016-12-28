@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 require '../example'
 
-require 'ex13_account'
-require 'ex15_manual_accessor'
+require_relative 'ex13_account'
+require_relative 'ex15_manual_accessor'
 
 
 example %q{

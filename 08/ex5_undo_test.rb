@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex5_undo'
+require_relative 'ex5_undo'
 
 class UndoableFileCommandTest < Test::Unit::TestCase
 

@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_account'
+require_relative 'ex1_account'
 
 class AccountTest < Test::Unit::TestCase
 

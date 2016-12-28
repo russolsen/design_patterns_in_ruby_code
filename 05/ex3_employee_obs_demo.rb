@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 
-require '../example'
-require 'ex3_employee_obs'
+require_relative '../example'
+require_relative 'ex3_employee_obs'
 
 example %q{
 fred = Employee.new('Fred', 'Crane Operator', 30000.0)

@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex15_subclass'
+require_relative 'ex15_subclass'
 
 class CureTestingBluesTest < Test::Unit::TestCase
 

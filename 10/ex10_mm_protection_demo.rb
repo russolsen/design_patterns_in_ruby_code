@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
-require 'ex10_mm_protection'
-require 'ex1_account'
+require_relative 'ex10_mm_protection'
+require_relative 'ex1_account'
 
 
 example %q{

@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-require '../../example'
+require_relative '../../example'
 
 
 
-require 'finder'
+require_relative 'finder'
 
 def backup(*args)
   pp args

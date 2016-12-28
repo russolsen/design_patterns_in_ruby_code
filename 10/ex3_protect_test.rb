@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_account'
-require 'ex3_protect'
+require_relative 'ex1_account'
+require_relative 'ex3_protect'
 
 #
 # Rewire the etc module to do what I want.

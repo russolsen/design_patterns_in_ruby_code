@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex7_change_resis_extern'
+require_relative 'ex7_change_resis_extern'
 
 
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex1_encrypter'
+require_relative 'ex1_encrypter'
 
 example %q{
 reader = File.open('message.txt')

@@ -1,5 +1,5 @@
 
-require 'net/http'
+require_relative 'net/http'
 
 class HttpAdapter
 

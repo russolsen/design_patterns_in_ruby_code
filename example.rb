@@ -1,19 +1,19 @@
 require 'stringio'
 require 'pp'
 
-def run_fragment(code)
+def run_fragment(code, file=__FILE__)
   out_io = $stdout = StringIO.new
   result = ''
   begin
-    result = eval code
+    result = eval(code, binding, file)
   ensure
     $stdout = STDOUT
   end
   [result, out_io.string]
 end
 
-def example(code)
-  run_example(0, code)
+def example(code, file=__FILE__)
+  run_example(0, code, file)
 end
 
 def example_trunc(code)
@@ -38,8 +38,8 @@ def example_false(code)
   puts code
 end
 
-def run_example(max_output_lines, code)
-  result, output = run_fragment(code)
+def run_example(max_output_lines, code, file=__FILE__)
+  result, output = run_fragment(code, file)
   print_output(code, max_output_lines, output)
   [result, output]
 end

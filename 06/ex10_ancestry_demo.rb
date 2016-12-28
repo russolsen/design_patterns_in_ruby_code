@@ -1,18 +1,18 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
 #
 # Simple demo of walking the ancestry tree
 # 
 
-require 'ex1_task'
+require_relative 'ex1_task'
 #
 # Task / Composite with parent pointers
 #
 
-example %q{
-require 'ex9_parent'
+example(%q{
+require_relative 'ex9_parent'
 
 c1 = CompositeTask.new('grandpa')
 c2 = CompositeTask.new('dad')
@@ -26,4 +26,4 @@ while task          # while the task is not null
   puts "task: #{task}"
   task = task.parent
 end
-}
+}, __FILE__)

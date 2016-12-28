@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-require '../../example'
+require_relative '../../example'
 
 example %q{
 
-require 'finder'
+require_relative 'finder'
 
 def backup(dir, find_expression=All.new)
   puts "Backup called, source dir=#{dir} find expr=#{find_expression}"

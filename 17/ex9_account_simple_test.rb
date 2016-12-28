@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex9_account_simple'
+require_relative 'ex9_account_simple'
 
 class BankAccountTest < Test::Unit::TestCase
 

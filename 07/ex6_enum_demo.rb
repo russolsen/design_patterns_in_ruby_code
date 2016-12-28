@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
 example %q{
 a = [ 'joe', 'sam', 'george' ]

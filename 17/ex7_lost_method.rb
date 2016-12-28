@@ -1,5 +1,5 @@
 
-require 'ex4_base'
+require_relative 'ex4_base'
 
 class Species < CompositeBase
 

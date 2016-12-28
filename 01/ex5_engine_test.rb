@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex5_engine'
+require_relative 'ex5_engine'
 
 class EngineTest < Test::Unit::TestCase
 

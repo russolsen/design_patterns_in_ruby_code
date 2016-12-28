@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex6a_enum_portfolio'
+require_relative 'ex6a_enum_portfolio'
 
 
 

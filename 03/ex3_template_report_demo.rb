@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require '../example'
-require 'ex3_template_report'
+require_relative '../example'
+require_relative 'ex3_template_report'
 
 example %q{
 report = HTMLReport.new

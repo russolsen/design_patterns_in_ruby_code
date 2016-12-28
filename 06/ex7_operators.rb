@@ -1,5 +1,5 @@
 require 'pp'
-require 'ex1_task'
+require_relative 'ex1_task'
 
 class CompositeTask < Task 
 

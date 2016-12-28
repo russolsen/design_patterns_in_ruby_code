@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_duck'
+require_relative 'ex1_duck'
 
 class DuckTest < Test::Unit::TestCase
 

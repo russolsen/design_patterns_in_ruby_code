@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_task'
-require 'ex4_comp_task'
+require_relative 'ex1_task'
+require_relative 'ex4_comp_task'
 
 
 class CompTaskTest < Test::Unit::TestCase

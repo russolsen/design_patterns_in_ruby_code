@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
-require 'ex6_virtual_block'
-require 'ex1_account'
+require_relative 'ex6_virtual_block'
+require_relative 'ex1_account'
 
 example %q{
 

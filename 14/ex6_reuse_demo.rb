@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 require 'pp'
 
-require 'ex1_computer'
-require 'ex3_polymorphic'
+require_relative 'ex1_computer'
+require_relative 'ex3_polymorphic'
 
 example %q{
 

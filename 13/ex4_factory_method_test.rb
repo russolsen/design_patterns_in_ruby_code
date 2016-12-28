@@ -3,9 +3,9 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_duck'
-require 'ex3_frog'
-require 'ex4_factory_method'
+require_relative 'ex1_duck'
+require_relative 'ex3_frog'
+require_relative 'ex4_factory_method'
 
 class FactoryMethodPondTest < Test::Unit::TestCase
 

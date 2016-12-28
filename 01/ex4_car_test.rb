@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_vehicle'
-require 'ex4_car'
+require_relative 'ex3_vehicle'
+require_relative 'ex4_car'
 
 class CarTest < Test::Unit::TestCase
 

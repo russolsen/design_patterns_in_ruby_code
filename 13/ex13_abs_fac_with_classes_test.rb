@@ -3,11 +3,11 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_duck'
-require 'ex3_frog'
-require 'ex5_plants'
-require 'ex9_tiger_tree'
-require 'ex13_abs_fac_with_classes'
+require_relative 'ex1_duck'
+require_relative 'ex3_frog'
+require_relative 'ex5_plants'
+require_relative 'ex9_tiger_tree'
+require_relative 'ex13_abs_fac_with_classes'
 
 class ClassBasedOrganismFactoryTest < Test::Unit::TestCase
 

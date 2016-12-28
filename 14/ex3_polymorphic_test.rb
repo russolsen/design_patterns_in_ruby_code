@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'test/unit'
-require 'ex1_computer'
-require 'ex3_polymorphic'
+require_relative 'ex1_computer'
+require_relative 'ex3_polymorphic'
 
 
 class PolymorphicBuilderTest < Test::Unit::TestCase

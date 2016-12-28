@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 require 'test/unit'
-require 'ex1_computer'
-require 'ex2_simple_builder'
-require 'ex5_saner_builder'
+require_relative 'ex1_computer'
+require_relative 'ex2_simple_builder'
+require_relative 'ex5_saner_builder'
 
 
 class SanerBuilderTest < Test::Unit::TestCase

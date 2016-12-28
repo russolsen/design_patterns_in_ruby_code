@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
 example_expected Fixnum, %q{ 7.class                      # Gives you the class Fixnum }
 example_expected Bignum,  %q{ 88888888888888888888.class  # Gives you the class Bignum }

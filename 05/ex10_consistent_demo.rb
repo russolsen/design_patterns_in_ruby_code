@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 
-
-require '../example'
-require 'ex10_consistent'
+require_relative '../example'
+require_relative 'ex10_consistent'
 
 example %q{
 fred = Employee.new("Fred", "Crane Operator", 30000)

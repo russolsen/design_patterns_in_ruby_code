@@ -3,9 +3,9 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex2_simple_writer'
-require 'ex3_forwardable'
-require 'ex2_misc_decorators'
+require_relative 'ex2_simple_writer'
+require_relative 'ex3_forwardable'
+require_relative 'ex2_misc_decorators'
 
 
 class DecoratedWriterTest < Test::Unit::TestCase

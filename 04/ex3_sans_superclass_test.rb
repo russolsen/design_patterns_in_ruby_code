@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'stringio'
 
-require 'ex3_sans_superclass'
+require_relative 'ex3_sans_superclass'
 
 
 class NoSuperclassFormatterTest < Test::Unit::TestCase

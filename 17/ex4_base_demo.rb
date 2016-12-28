@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-require '../example'
+require_relative '../example'
 
-require 'ex4_base'
-require 'ex3_members'
+require_relative 'ex4_base'
+require_relative 'ex3_members'
 
 example %q{
 

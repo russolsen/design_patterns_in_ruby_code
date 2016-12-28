@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex1_files'
-require 'ex2_parser'
+require_relative 'ex1_files'
+require_relative 'ex2_parser'
 
 
 example %q{

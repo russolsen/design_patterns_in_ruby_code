@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_renderer'
+require_relative 'ex3_renderer'
 
 class RendererTest < Test::Unit::TestCase
 

@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex1_message'
+require_relative 'ex1_message'
 
 class MessageTest < Test::Unit::TestCase
 

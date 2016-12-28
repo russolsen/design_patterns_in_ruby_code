@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex10_account_attr'
+require_relative 'ex10_account_attr'
 
 class BankAccountTest < Test::Unit::TestCase
 

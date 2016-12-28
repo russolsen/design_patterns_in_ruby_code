@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_simple_logger'
-require 'ex5_private'
+require_relative 'ex3_simple_logger'
+require_relative 'ex5_private'
 
 class PrivateNewSingletonTest < Test::Unit::TestCase
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require '../example'
+require_relative '../example'
 
-require 'ex3_simple_logger'
+require_relative 'ex3_simple_logger'
 
 
 class LoggerThatDoesSomethingBad

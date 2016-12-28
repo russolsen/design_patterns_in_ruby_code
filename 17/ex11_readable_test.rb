@@ -3,7 +3,7 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex11_readable'
+require_relative 'ex11_readable'
 
 class BankAccountTest < Test::Unit::TestCase
 

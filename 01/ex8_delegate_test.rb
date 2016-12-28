@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex8_delegate'
-require 'ex7_diesel'
+require_relative 'ex8_delegate'
+require_relative 'ex7_diesel'
 
 class DelegateToEngineTest < Test::Unit::TestCase
 

@@ -3,8 +3,8 @@
 require 'test/unit'
 require 'pp'
 
-require 'ex3_simple_logger'
-require 'ex6_std_singleton'
+require_relative 'ex3_simple_logger'
+require_relative 'ex6_std_singleton'
 
 class StandardSingletonTest < Test::Unit::TestCase
 

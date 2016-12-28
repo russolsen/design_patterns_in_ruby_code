@@ -1,4 +1,3 @@
-
 class VirtualAccountProxy
   def initialize(starting_balance=0)
     @starting_balance=starting_balance
